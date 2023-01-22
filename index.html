@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film production house</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        yellow: '#FECC02',
+                        black: '#131313',
+                        black_gray: '#4E4E4E',
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        montserrat: ["Montserrat", "sans-serif"],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="max-w-6xl w-full mx-auto h-36 md:h-20 md:flex justify-between items-center font-bebas sticky">
+            <h1 class="uppercase text-3xl font-semibold ">Movie Production</h1>
+            <ul class="uppercase md:flex gap-5">
+                <li>about us</li>
+                <li>our movies</li>
+                <li>services</li>
+            </ul>
+        </nav>
+        <!-- banner -->
+        <!-- <div > -->
+        <div class=" h-[100vh] w-full  bg-[url('images/banner.jpg')] bg-cover bg-center">
+            <div class="max-w-6xl w-full h-full mx-auto text-white flex items-center ">
+                <div class="font-bebas">
+                    <p>Movie production studio</p>
+                    <h1 class="text-6xl">Films MAde to</h1>
+                    <h1 class="text-6xl text-yellow">Perfection</h1>
+                    <p class="w-1/2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- /banner -->
+    </header>
+    <main>
+        <section class="mt-40  border-2 border-black w-full md:max-w-7xl  mx-auto   p-6 ">
+            <div class=" md:flex gap-2">
+
+                <div class="w-full mx-auto md:w-1/2 h-[575px] bg-[url('images/camera-man.jpg')] bg-cover bg-center">
+                    <div class="w-full h-full flex items-end drop-shadow-xl">
+                        <h3 class="bg-white p-4 font-bebas text-center w-10/12 mx-auto rounded-xl font-semibold -m-6 ">
+                            23 YEARS OF EXPERIENCE</h3>
+                    </div>
+                </div>
+                <div class="w-full mx-auto md:w-1/2 font-bebas p-5 mt-6 md:mt-0">
+                    <p class="capitalize font-semibold text-lg">ABOUT US</p>
+                    <h1 class="mt-2 capitalize text-5xl font-semibold">FIlming Experience </h1>
+                    <h1 class="capitalize text-6xl font-semibold">Just Got better</h1>
+                    <p class="mt-2 mb-10">Primis lobortis adipiscing imperdiet dis ultricies. Id commodo interdum
+                        fermentum pede dictumst ipsum. Erat sapien phasellus suspendisse natoque nulla leo ornare mi.
+                        Pretium rhoncus venenatis ante dignissim aliquet faucibus tempus etiam feugiat.</p>
+
+                    <button class="border-2 border-black  text-lg font-semibold capitalize py-4 px-4">Discover
+                        More</button>
+                </div>
+            </div>
+            <div class="mt-20 font-bebas grid grid-cols-1 md:grid-cols-3 gap-14">
+                <div class="">
+                    <hr class="w-full bg-black h-[4px]">
+                    <h1 class="font-semibold text-5xl mt-3 ">OUR VISION</h1>
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="">
+                    <hr class="w-full bg-black h-[4px]">
+                    <h1 class="font-semibold text-5xl mt-3">OUR VISION</h1>
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="">
+                    <hr class="w-full bg-black h-[4px]">
+                    <h1 class="font-semibold text-5xl mt-3">OUR VISION</h1>
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                        ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Movie collection -->
+        <section class="mt-40 bg-[#4E4E4E]  text-white font-semibold font-bebas">
+            <div class=" max-w-6xl w-full mx-auto p-8">
+                <div class="md:flex justify-between">
+                    <div>
+                        <p class=" text-base">OUR MOVIES</p>
+                        <h1 class="text-5xl">Movie collection</h1>
+                    </div>
+                    <button class=" border-2 border-white  text-lg font-semibold capitalize py-4 px-4">Discover
+                        More</button>
+                </div>    
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
+                    <div class="w-full  md:w-[260px] md:h-[350px] border-2 border-white  p-5">
+                        
+                        <img class="w-full h-full" src="./images/inception.jpg" alt="">
+                    </div>
+                    <div class="w-full  md:w-[260px] md:h-[350px] border-2 border-white  p-5">
+                        <img class="w-full h-full" src="./images/fractured.jpg" alt="">
+                    </div>
+                    <div class="w-full  md:w-[260px] md:h-[350px] border-2 border-white  p-5">
+                        <img class="w-full h-full" src="./images/tenet.jpg" alt="">
+                    </div>
+                    <div class="w-full  md:w-[260px] md:h-[350px] border-2 border-white  p-5">
+                        <img class="w-full h-full" src="./images/interstellar.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- /Movie collection -->
+
+
+        <!--  what we offer-->
+        <section class="mt-40 font-montserrat max-w-6xl w-full mx-auto">
+            <p class="font-semibold capitalize text-center">services</p>
+            <h3 class="text-7xl font-semibold text-center capitalize mb-16">what we offer</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-y-14 gap-x-14">
+
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/camera.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >movies director</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/3d-glasss.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >3D MOVIES</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/director-chair.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >Film maker</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/film.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >Studio Production</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/theater.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >Drama Movies</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/rim.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >Rolling Production</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/cut-board.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >Movie Production</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+                <div class="w-full h-full md:w-[250px] md:h-[250px] border-2 border-black_gray p-4">
+                    <img class="w-2/6 mx-auto" src="./images/icons/count-down.png" alt="">
+                    <div class="text-center mt-4">
+                        <p class="text-lg font-semibold" >actor action</p>
+                    <p class="text-lg mt-3">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /what we offer -->
+    </main>
+    <footer class=" mt-44 w-full bg-[url('images/footer-bg.jpg')] bg-cover ">
+        <div class="max-w-5xl w-full mx-auto text-white text-center">
+            <h1 class="text-7xl uppercase  font-semibold pt-16">jhaka naka production</h1>
+            <p class="text-2xl uppercase font-semibold pb-6">next level experience</p>
+            <p>Feugiat nibh litora semper proin nullam facilisi 
+                volutpat ex ullamcorper.</p>
+                <p class="pt-32 pb-8">Copyright © 2023 flime productioin, All rights reserved. Present by Mir Hussain</p>
+        </div>
+    </footer>
+</body>
+
+</html>
